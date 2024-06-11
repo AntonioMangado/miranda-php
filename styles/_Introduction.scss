@@ -1,0 +1,53 @@
+.introduction {
+    &__content {
+        padding: 3.75rem 1.25rem;
+        
+        video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2.25rem;
+        }
+
+        h3 {
+            margin-bottom: 3.125rem;
+        }
+    }
+
+    &__services {
+        display: grid;
+        grid-template-columns: repeat(2, 9.5rem);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1.25rem;
+        place-content: center;
+
+        article {
+            text-align: center;
+            transition: .3s ease-in-out;
+            height: 9.5rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+
+            i {
+                font-size: 3rem;
+                margin-bottom: 1.25rem;
+                color: #bead8e;
+            }
+
+            &:hover {
+                background-color: #bead83;
+                color: #ffffff;
+            }
+
+            &:hover i {
+                color: #ffffff;
+            }
+
+            span {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.counter {
+    &__content {
+        padding: 3.75rem 1.25rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__card {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        i {
+            &:first-of-type {
+                color: #bead82;
+                font-size: 4rem;
+            }
+
+            &:last-of-type {
+                font-size: 2rem;
+                color: #dcdcdc;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+
+            span {
+                &:first-of-type {
+                    font-family: "Old Standard TT", serif;
+                    font-size: 3.75rem;
+                }
+
+                
+            }
+
+            &:last-of-type {
+                flex: 1;
+            }
+        }
+    }
+}

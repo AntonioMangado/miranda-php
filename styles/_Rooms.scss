@@ -1,0 +1,77 @@
+.rooms {
+    // padding: 0 1.25rem;
+
+    .section-title, h2 {
+        text-align: center;
+    }
+
+    .slider {
+        width: 100vw;
+        position: relative;
+        text-align: center;
+
+        &__icons {
+            padding: 0.75rem 1.5rem;
+            display: inline-flex;
+            gap: 1rem;
+            justify-content: center;
+            z-index: 100;
+            position: relative;
+            background-color: white;
+
+            i {
+                width: 1rem;
+            }
+        }
+
+        &__buttons-image {
+            position: relative;
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 1.5rem;
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                
+                button {
+                    padding: 0.7rem 1rem;
+                }
+            }
+        }
+
+        &__description {
+            padding: 1.2rem 1.5rem;
+            display: inline-block;
+            width: 80%;
+            position: relative;
+            margin-top: -1.5rem;
+            z-index: 100;
+            background-color: white;
+
+            p {
+                font-size: 0.9rem;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 1.3rem;
+            }
+
+            span {
+                color: #BEAD8E;
+
+                &.price {
+                    font-size: 3rem;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            margin-top: -1rem;
+        }
+    }
+
+
+}

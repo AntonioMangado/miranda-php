@@ -1,0 +1,75 @@
+.hero {
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 3.75rem;
+
+    &__tour {
+        padding: 4.7rem 1.25rem;
+        
+        background-color: #333333;
+        position: relative;
+
+        button {
+            min-width: 14rem;
+            
+            &:nth-of-type(1) {
+                margin-bottom: 1.5rem;
+                margin-right: 1.5rem;
+            }
+        }
+
+        .navigation {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 1rem 1.5rem;
+            display: inline-block;
+            position: absolute;
+            bottom: -1px;
+            right: 1.25rem;
+            font-weight: 700;
+
+            a {
+                color: #000000;
+                text-decoration: none;
+                margin-right: 0.5rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            span {
+                color: #BEAD8E;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    &__availability {
+        background-color: #222222;
+        padding: 2.25rem 1.25rem;
+
+        p {
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 1.4rem;
+        }
+
+        input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid #BEAD8E;
+            color: #686868;
+            padding: 0.8rem 0;
+            width: 100%;
+            font-size: 0.9rem;
+            margin-bottom: 1.8rem;
+            outline: none;
+
+            &::-webkit-calendar-picker-indicator {
+                background-color: #BEAD8E;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,54 @@
+.contact-form {
+
+    margin-bottom: 3.75rem;
+    &__content {
+        padding: 0 1.25rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input, textarea {
+                margin-bottom: 1rem;
+                padding: 1.5rem 1.25rem 1.5rem 3rem;
+                background-color: rgba(248, 248, 248, 1);
+                border: none;
+                outline: none;
+                background-position: 18px 23px;
+                background-repeat: no-repeat;
+
+                &::placeholder {
+                    color: rgba(119, 119, 119, 1);
+                    font-size: 1rem;
+                    font-family: "Roboto", sans-serif;
+                }
+            }
+
+            input#full-name {
+                background-image: url(/assets/images/user-icon.svg.svg);
+            }
+
+            input#phone {
+                background-image: url(/assets/images/phone-icon.svg.svg);
+            }
+
+            input#email {
+                background-image: url(/assets/images/email-icon.svg.svg);
+            }
+
+            input#subject {
+                background-image: url(/assets/images/book-icon.svg.svg);
+            }
+
+            textarea#comments {
+                background-image: url(/assets/images/pencil-icon.svg.svg);
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.intro-video {
+    background-color: #000000;
+    color: #ffffff;
+
+    &__info {
+        padding: 4rem 1.5rem 3rem;
+
+        video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2.25rem;
+        }
+    }
+}

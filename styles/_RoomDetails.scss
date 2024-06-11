@@ -1,0 +1,62 @@
+.room-details {
+    &__content {
+        padding: 0 1.25rem;
+
+        .section-title {
+            margin-bottom: 0.75rem;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .rate {
+            margin-bottom: 1rem;
+
+            span {
+                color: #BEAD8E;
+    
+                &.price {
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__availability {
+
+        padding: 1.625rem 1rem;
+
+        .title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2.25rem;
+        }
+
+        label {
+            margin-bottom: 0.8rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        input {
+            padding: 1.5rem 1.875rem;
+            font-size: 0.875rem;
+            border: none;
+            outline: none;
+            background-color: #f8f8f8;
+            color: #777;
+            margin-bottom: 1.275rem;
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}

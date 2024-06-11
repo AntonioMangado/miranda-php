@@ -1,0 +1,105 @@
+.contact {
+    background-image: url("../assets/images/background-pattern.png");
+
+    &__container {
+        padding: 2rem 1.375rem;
+    }
+
+    &__socials {
+        article {
+            display: flex;
+            gap: 1.75rem;
+            margin-bottom: 4rem;
+
+            .logo {
+                padding: 1.2rem 1.5rem;
+                font-size: 2.5rem;
+                font-weight: 700;
+                background-color: #bead8e;
+                color: #ffffff
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                font-size: 1.625rem;
+                justify-content: center;
+            }
+        }
+
+        &__icons {
+            display: flex;
+            gap: 0.625rem;
+
+            .icon {
+                padding: 0.5rem;
+                background-color: #f8f8f8;
+                transition: .3s ease-in-out;
+                cursor: pointer;
+
+                i {
+                    font-size: 1.5rem;
+                    color: #777777
+                }
+
+                &:hover {
+                    background-color: #bead8e;
+                    transform: scale(1.1);
+                }
+
+                &:hover i {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    &__services {
+        margin-bottom: 2rem;
+
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;       
+        }
+    }
+
+    &__contact-us {
+        h3 {
+            text-align: start;
+        }
+
+        &__card {
+            display: flex;
+            font-family: "Old Standard TT", serif;
+            align-items: center;
+            gap: 1.375rem;
+
+            i {
+                font-size: 2.5rem;
+                color: #bead8e;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                .card-title {
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    color: #222222;
+                }
+
+                .card-info {
+                    font-size: 0.875rem;
+                    font-family: "Roboto", sans-serif;
+                    color: #777777; 
+                }
+            }
+
+            &:not(.address) {
+                margin-bottom: 3.75rem;
+            }
+        }
+    }
+}

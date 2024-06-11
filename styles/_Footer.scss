@@ -1,0 +1,31 @@
+.footer {
+    background-color: #f8f8f8;
+
+    footer  {
+        padding: 1rem 1.25rem;
+        font-weight: 700;
+
+        .copyright {
+            margin-bottom: 1.5rem;
+            
+        }
+
+        .tos {
+            margin-right: 0.5rem;
+        }
+
+        .policy {
+            margin-left: 0.5rem;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

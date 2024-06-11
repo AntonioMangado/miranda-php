@@ -1,0 +1,29 @@
+.amenities {
+    &__content {
+        padding: 2rem 1.25rem;
+
+        h3 {
+            border-bottom: 1px solid #f1f1f1;
+            padding-bottom: 0.9rem;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, .9fr);
+
+        article {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+
+            i {
+                color: #bead8e;
+            }
+
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+}
